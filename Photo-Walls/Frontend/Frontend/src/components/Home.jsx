@@ -33,7 +33,7 @@ function Home() {
             paddingLeft: "30px",
             paddingRight: "30px",
             padding: "30px 30px 30px 30px",
-            marginTop: "50px",
+            marginTop: "20px",
           }}
         >
           <div class="carousel-inner">

@@ -111,6 +111,7 @@ export function Navbar2() {
                 color: "black",
                 fontfamily:
                   "Impact, Haettenschweiler, Arial Narrow Bold, sans-serif",
+                paddingRight: "2px",
               }}
             >
               <i class="bi bi-cart-fill" style={{ fontSize: "20px" }}></i> Cart
@@ -126,11 +127,12 @@ export function Navbar2() {
             }}
           >
             <h4
+              className="text-primary"
               style={{
-                color: "black",
                 fontfamily:
                   "Impact, Haettenschweiler, Arial Narrow Bold, sans-serif",
                 fontSize: "20px",
+                fontWeight: "bolder",
               }}
             >
               LOGIN
