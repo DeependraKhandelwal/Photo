@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import { saveCustomer } from "../../redux/Customer/customerThunks";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 function CreateCustomer(props) {
   const [customers, SetCustomers] = useState({
     buildingName: "",
@@ -45,6 +46,7 @@ function CreateCustomer(props) {
         <form
           class="row row-cols-lg-auto g-3 align-items-center"
           onSubmit={handleSubmit}
+          style={{ marginBottom: "40px" }}
         >
           <div class="col-12">
             <label class="visually-hidden" for="inlineFormInputGroupUsername">
@@ -336,6 +338,7 @@ function CreateCustomer(props) {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
