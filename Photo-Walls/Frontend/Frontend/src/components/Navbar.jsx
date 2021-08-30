@@ -91,7 +91,7 @@ export function Navbar2() {
                     "Impact, Haettenschweiler, Arial Narrow Bold, sans-serif",
                 }}
               >
-                Customer
+                Profile
               </h4>
             </a>
           </li>
