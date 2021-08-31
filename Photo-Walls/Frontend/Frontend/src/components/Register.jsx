@@ -87,27 +87,17 @@ function Register({ adduser, registerAction }) {
                           </div>
 
                           <div class="d-flex flex-row align-items-center mb-4">
-                            <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                              <input
-                                name="usertype"
-                                type="email"
-                                id="form3Example3c"
-                                class="form-control"
-                                onInput={formValidate}
-                                value={SgUForm.userRole}
-                                onChange={(e) =>
-                                  setSgUForm({
-                                    ...SgUForm,
-                                    userRole: e.target.value,
-                                  })
-                                }
-                              />
+                              <select id="inputState" name="usertype" onInput={formValidate} value={SgUForm.userRole} onChange={e => setSgUForm({ ...SgUForm, userRole: e.target.value })} class="form-select form-select-lg">
+                                <option selected></option>
+                                <option value="customer" >Customer</option>
+                                <option value="admin">Admin</option>
+                              </select>
                               <label class="form-label" for="form3Example3c">
                                 Your Role
                               </label>
-                            </div>
-                          </div>
+                            </div></div>
 
                           <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>

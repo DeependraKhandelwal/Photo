@@ -11,7 +11,7 @@ export function Navbar2() {
     >
       <a
         class="navbar-brand"
-        href=""
+        href="#"
         onClick={() => {
           history.push("/");
         }}
@@ -40,7 +40,7 @@ export function Navbar2() {
           <li class="nav-item active">
             <a
               class="nav-link"
-              href=""
+              href="#"
               onClick={() => {
                 history.push("/aboutUs");
               }}
@@ -60,7 +60,7 @@ export function Navbar2() {
           <li class="nav-item">
             <a
               class="nav-link"
-              href=""
+              href="#"
               onClick={() => {
                 history.push("/categories");
               }}
@@ -79,7 +79,7 @@ export function Navbar2() {
           <li class="nav-item">
             <a
               class="nav-link"
-              href=""
+              href="#"
               onClick={() => {
                 history.push("/CreateCustomer");
               }}
@@ -101,7 +101,7 @@ export function Navbar2() {
         <li class="nav-item">
           <a
             class="nav-link"
-            href=""
+            href="#"
             onClick={() => {
               history.push("/myCart");
             }}
@@ -120,7 +120,7 @@ export function Navbar2() {
         <li class="nav-item">
           <a
             class="nav-link"
-            href=""
+            href="#"
             onClick={() => {
               history.push("/signIn");
             }}
